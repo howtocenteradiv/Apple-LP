@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* -------------------- Header -------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 120px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+.header__logo,
+.header__search,
+.header__bag{
+    height: 20px;
+    width: 20px;
+}
+
+/* -------------------- Hero -------------------- */
+
+.hero__video{
+    width: 100%;
+}
+
+/* -------------------- Products -------------------- */
+
+.products{
+    background-color: rgba(0, 0, 0, 0.099);
+}
+
+.products-help{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.products-help__text{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.products-help-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.products-help-container__profile{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.products-help-container__apple{
+    height: 40px;
+    width: 40px;
+}
+
+.products-help-container__link{
+    color: blue;
+}
+
+.products-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.products-section-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.products-section-type__image{
+    height: 100px;
+}
+
+/* -------------------- Cards -------------------- */
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__title{
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.cards-section{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.cards-section__box-image{
+    height: 200px;
+    width: 280px;
+}
+
+.cards-section__box{
+    padding: 20px;
+    height: 440px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    text-align: center;
+    gap: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    transition: 0.9s;
+}
+
+.cards-section__box-title{
+    font-weight: 600;
+}
+
+.cards-section__box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cards-section__box-offer-text{
+    font-weight: 400;
+}
+
+.card--black{
+    background-color: black;
+    color: white;
+}
+
+/* -------------------- Events -------------------- */
+
+.events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 40px 0px;
+}
+
+.events__title{
+    color: white;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.events-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.events-images__image{
+    height: 500px;
+}
+
+/* -------------------- Showcase -------------------- */
+
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.showcase__image{
+    height: 600px;
+}
+
+.showcase__text{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+/* -------------------- Footer -------------------- */
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.099);
+}
+
+.footer-title__image{
+    height: 40px;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px 0px 40px 80px;
+}
+
+.footer-title__text{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 120px;
+}
+
+.footer-links-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-container__link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__notes{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 24px;
+    font-weight: 400;
+}
